@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Reset sederhana */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tampilan umum */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Container utama */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Judul */
+h1 {
+  font-size: 32px;
+  color: #01579b;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #0288d1;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #0288d1;
+  margin-bottom: 20px;
+}
+
+/* Paragraf */
+p {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+/* Tambahan efek hover pada teks tebal */
+b {
+  color: #322b2b;
+  transition: color 0.3s;
+}
+
+b:hover {
+  color: #0288d1;
+}
